@@ -22,8 +22,11 @@ export MYSQL_HOME=/usr/local/mysql-5.5.22-osx10.6-x86_64/
 alias mysql=/usr/local/mysql/bin/mysql
 alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 
-#load rvm into shell session
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
 # Set up Sublime Text 2 shortcut
-alias slime='open -a "Sublime Text 2"'
+alias slime='open -a "Sublime Text"'
+
+# Environment Variables
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+PATH=$PATH:/Applications/Postgres93.app/Contents/MacOS/bin/
+
+
