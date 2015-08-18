@@ -14,19 +14,17 @@ alias ll='ls -lG'
 # Development Helpers
 # ====================
 
+# direnv (http://direnv.net/)
+eval "$(direnv hook bash)"
+
 # Set root Dir for development code
 export DEV_HOME=$HOME/Development
 
-# setup mysql
-export MYSQL_HOME=/usr/local/mysql-5.5.22-osx10.6-x86_64/
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
-
-# Set up Sublime Text 2 shortcut
+# Set up Sublime Text shortcut
 alias slime='open -a "Sublime Text"'
 
 # Environment Variables
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
-PATH=$PATH:/Applications/Postgres93.app/Contents/MacOS/bin/
+# export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+
 
 
